@@ -1,0 +1,3 @@
+import os, platform
+
+print("OC", platform.system())
