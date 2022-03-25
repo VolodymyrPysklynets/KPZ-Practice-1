@@ -1,0 +1,5 @@
+texts = ["php", "mam", "Python", "tenet", "Vova", "Work","pen"]
+print(texts) 
+result = list(filter(lambda x: (x == "".join(reversed(x))), texts)) 
+print("\nList of palindromes:")
+print(result) 
