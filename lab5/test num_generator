@@ -1,4 +1,4 @@
-import lab3
+import lab2
 def test_prime_num_generator():
     generator = lab3.prime_num_generator()
     counter = 0
