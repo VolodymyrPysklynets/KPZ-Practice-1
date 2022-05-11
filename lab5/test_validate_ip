@@ -1,0 +1,12 @@
+import lab3
+def test_validate_ip():
+    assert lab3.validate_ip("123.321") == False
+    assert lab3.validate_ip() == False
+    assert lab3.validate_ip("0.0.0.0") == True
+    assert lab3.validate_ip("138.88.233.9") == False
+    assert lab3.validate_ip("192.168.50.66") == True
+
+    try:
+        lab3.palindrom(367)
+    except TypeError:
+        assert True
